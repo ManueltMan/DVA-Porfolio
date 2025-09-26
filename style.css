@@ -557,6 +557,20 @@ footer {
   }
 }
 
+.about{
+  text-align: left;
+}
+
+@media (max-width: 900px) {
+  .about {
+    padding: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .about {
+    padding: 20px;
+  }
+}
 .upcoming{
   display: flex;
   flex-wrap: wrap;
@@ -598,14 +612,15 @@ footer {
   align-items: center;
   justify-content: center;
   max-width: 220px;
-  width: 100%;
+  width: 300%;
   flex-shrink: 0;
   margin-left: 190px;
 }
 
 .upcoming-image img {
   width: 400%;
-  height: 450px;
+  height: 250px;
+  margin-top: -180px;
 }
 #upcoming {
   max-width: 1200px;
@@ -622,6 +637,7 @@ footer {
   .upcoming-info {
     align-items: center;
     text-align: center;
+    margin-top: -120px;
   }
   .upcoming-image{
     margin-left: 20px;
@@ -637,9 +653,10 @@ footer {
   }
   #events .upcoming-flex + .upcoming-flex .upcoming-image {
     margin-bottom: 3rem;
+    margin-top: -100px;
   }
   #events .upcoming-flex + .upcoming-flex .upcoming-info {
-    margin-top: -25rem !important;
+    margin-top: -30rem !important;
   }
 }
 
